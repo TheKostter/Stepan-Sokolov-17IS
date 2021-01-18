@@ -1,0 +1,332 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+body {background-color: black}
+#sho {
+	color: white;
+	padding: 5px;
+}
+.wrap {
+	height:1500px;
+	background:rgba(26,23,23,1);
+	width: 45%;
+	margin-left:338px;
+	padding-left:10px;
+}
+.wrapp {
+	height:1500px;
+	background:rgba(26,23,23,1);
+	width: 64%;
+	margin-left:337px;
+	padding-left:10px;
+}
+.wrappp {
+	height:1350px;
+	background:rgba(26,23,23,1);
+	width: 64%;
+	margin-left:337px;
+	padding-left:10px;
+}
+.wrapppp {
+	height:390px;
+	background:rgba(26,23,23,1);
+	width: 64%;
+	margin-left:337px;
+	padding-left:10px;
+}
+.bok {
+	height:1500px;
+	background:rgba(26,23,23,1);
+	float:right;
+	width: 19%;
+	float:right;
+	margin-right: 338px;
+	margin-bottom: 5px;
+}
+.header {
+
+	height:60px;
+	top:-80px;
+	transition: top 1s;
+	text-align:center;
+	width: 65%; 
+}
+.header.fixed {
+    width:100%;
+    position: fixed;
+    top: 0;
+    background:rgba(26, 23, 23, 1);
+}
+table {
+	width: 1227px;
+	border:none;
+}
+.table1{
+	height: 250px;
+	width: 328px;
+	margin-left: 9px;
+}
+.table1th{
+	border:solid white 2px;
+	margin-top: 5px;
+	font-size: 18px;
+	text-align: left;
+	height: 45px;
+}
+.cvet1{
+	color: gray;
+}
+.cvetgreen{
+	color: green;
+}
+.cvetred{
+	color: red;
+}
+.th1 {color:white;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border: none; 
+	height: 24px;
+	font-size: 22px;
+ }
+.th1:hover {
+	background-color: red;
+	transition: background-color .3s ease-in;
+	cursor: pointer}
+.thh {
+	border: none;
+	text-align: center;
+}
+.thh:hover {
+	background-color: rgba(26,23,23,1);
+}
+#back {
+	background:rgba(26,23,23,1);
+}
+.soc {
+	height: 200px;
+	background: 
+	rgba(36, 34, 34, 1);
+	width:64.5%;
+}
+.vk {
+	margin-left: 70px;
+	margin-right: 130px;
+	float:left
+}
+.twitter {
+	float:left; 
+	margin-left: 100px
+}
+.twitch {
+	float:left;
+	margin-left: 220px
+}
+.hr1 {
+	height: 40px;
+	color: white;
+	margin-top: 20px;
+	background: rgba(36, 34, 34, 1);
+	border: none; 
+	text-align: center; 
+	width: 348px; 
+	font-size: 28px; 
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.hr2 {
+	height: 40px;
+	color: white;
+	background: rgba(36, 34, 34, 1);
+	border: none; 
+	text-align: left; 
+	width: 348px; 
+	font-size: 28px; 
+	margin-left: 10px;
+	
+}
+.hr3 {
+	height: 40px;
+	color: white;
+	background: rgba(36, 34, 34, 1);
+	border: none; 
+	text-align: left; 
+	width: 348px; 
+	font-size: 28px; 
+	margin-left: 10px;
+	
+}
+.dlyatexta {
+	background:rgba(36, 34, 34, 1);
+}
+.spryatalsya {
+	background:rgba(26,23,23,1); 
+	height: 20px;
+}
+.spryatalsya1 {
+	background:rgba(26,23,23,1); 
+	height: 10px;
+}
+.spryatalsya2 {
+	background:rgba(26,23,23,1); 
+	height: 20px;
+}
+.matchi {
+	height: 270px;
+	width: 348px;
+	background: rgba(36, 34, 34, 1);
+	margin-left: 10px;
+	margin-top:10px;
+	text-align:center;
+	color: white;
+	font-size: 20px;
+	vertical-align: middle;
+	}
+.reklama {
+	height: 270px;
+	width: 348px;
+	background: rgba(36, 34, 34, 1);
+	margin-left: 10px;
+	margin-top:10px;
+	text-align:center;
+	color: white;
+	font-size: 20px;
+	vertical-align: middle;
+	}
+.reklamaimg {
+	height: 265px;
+	width: 343px;
+	margin-top: 2px;
+}
+.test {
+	vertical-align: middle;
+}
+.statya {
+	height: 450px;
+	background: rgba(36, 34, 34, 1);
+	color: white;
+}
+.statyaimg {
+	height: 340px;
+	padding: 10px;
+	width: 827px;
+}
+.statyatext {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 22px;
+}
+.statyadisciplina {
+	background-color: red;
+	width: 65px;
+	height:  25px;
+	font-size: 22px;
+	margin-left: 10px;
+}
+.statyadisciplina1 {
+	background-color: red;
+	width: 130px;
+	height:  25px;
+	font-size: 22px;
+	margin-left: 10px;
+}
+.contact{
+	background-color: red;
+	width: 130px;
+	height:  25px;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footer {
+	width:65%;
+	background: black;
+	color: white;
+	height: 100px;
+	text-align: left;
+}
+.team {
+	height: 450px;
+	background: rgba(36, 34, 34, 1);
+	color: white;
+	margin-right: 10px;
+}
+.nazvanie {
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+.igrok {
+	float:left;
+	color:white;
+	height: 350px;
+	width: 210px;
+	border: solid white 4px;
+	margin-left: 20px;
+}
+.levee {
+	margin-right: 10px;
+}
+.imgigrok {
+	height: 349px;
+	width: 209px;
+}
+a {
+	text-decoration: none;
+	color: white
+}
+.shop {
+	height: 1450px;
+	background: rgba(36, 34, 34, 1);
+	color: white;
+	margin-right: 10px;
+}
+.shopp {
+	height: 1320px;
+	background: rgba(36, 34, 34, 1);
+	color: white;
+	margin-right: 10px;
+}
+.shoppp {
+	height: 355px;
+	background: rgba(36, 34, 34, 1);
+	color: white;
+	margin-right: 10px;
+}
+.atribut {
+	float:left;
+	color:white;
+	height: 210px;
+	width: 210px;
+	border: solid white 4px;
+	margin-left: 20px; 
+	margin-top: 50px;
+}
+.imgshop {
+	height: 170px;
+	width: 209px;
+}
+.kuplya {
+	height: 30px;
+	border: solid white 4px;
+	width: 202px;
+	margin-right: 20px;
+	float: left;
+	text-align: center
+}
+.kuplya:hover {
+	background-color: red;
+	transition: background-color .3s ease-in;
+}
+.nije {
+	margin-top: 5px;
+	font-size: 26px;
+}
+.sponsor {margin-top: 20px; margin-left: 15px; margin-right: 5px; background:rgba(26,23,23,1); height: 300px;}
+.sponsorimg {height: 250px; margin-top: 20px; border: solid white 2px; margin-left: 20px; float:left;}
+.pravosponsor {height: 250px; margin-top: 20px; border: solid white 2px; margin-left: 20px; float:left; width: 860px;}
+.textsponsor {margin-top: 10px;margin-left: 10px; font-size: 20px;}
+.textcontact {margin-top: 10px;margin-left: 10px; float:left; font-size: 25px;}
+
